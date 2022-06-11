@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1034626365244",
+    "project_id": "sign-lang-eb12d",
+    "storage_bucket": "sign-lang-eb12d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034626365244:android:eaba841f4f889a68fb1039",
+        "android_client_info": {
+          "package_name": "com.example.imagepro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034626365244-2vtbt17jarjq6shh0jk0ov4na7d2cn4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARoiNpGxri_4263okme8xE3l7MmrtO0x4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034626365244-2vtbt17jarjq6shh0jk0ov4na7d2cn4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034626365244:android:607e1c5ef93196aefb1039",
+        "android_client_info": {
+          "package_name": "com.technicdude.loginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034626365244-2vtbt17jarjq6shh0jk0ov4na7d2cn4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARoiNpGxri_4263okme8xE3l7MmrtO0x4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034626365244-2vtbt17jarjq6shh0jk0ov4na7d2cn4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

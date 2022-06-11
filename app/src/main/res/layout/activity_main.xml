@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    android:id="@+id/drawer"
+
+    android:background="@drawable/walpaper"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <TextView
+            android:id="@+id/simpleTextView"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="70dp"
+
+            android:text="Handspeak"
+            android:textColor="#673AB7"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+
+            android:id="@+id/camera_button"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="43dp"
+            android:background="#9C27B0"
+            android:padding="10dp"
+            android:text="Real-time recognition"
+            android:textAllCaps="false"
+            android:textColor="#DCD1D1"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/combine_letter_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="127dp"
+            android:background="#9C27B0"
+            android:padding="10dp"
+            android:text="Combine Letter"
+            android:textAllCaps="false"
+            android:textColor="#DCD1D1"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/simpleTextView"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/sl" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:drawableStart="@drawable/ic_baseline_linked_camera_24"
+            android:drawablePadding="5dp"
+            android:text="Use our image analyser to detect the letters"
+            android:textColor="#673AB7"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:drawableStart="@drawable/ic_baseline_menu_book_24"
+            android:drawablePadding="5dp"
+            android:text="Use our guide to learn about signs"
+            android:textColor="#673AB7"
+            android:textSize="20dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navview"
+        app:menu="@menu/dmenu"
+        app:headerLayout="@layout/nav_header"
+        android:layout_gravity = "start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>
